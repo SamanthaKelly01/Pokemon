@@ -14,66 +14,67 @@
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/estilos.css">
 
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
 
 </head>
 <body>
-    <header> 
-        <img src="src/imagens/pokebola.png" alt="pokebola">
-        <h1> Minha Pokedex </h1>
+    <header class="cabecalho"> 
+        <img src="src/imagens/pokebola.png" alt="pokebola" class="pokebola">
+        <h1 class="titulo"> Minha Pokedex </h1>
     </header>
 
-    <main> 
-        <button>
+    <main class="pokemon-slider"> 
+        <button class="btn-seta btn-voltar">
             <img src="src/imagens/seta.png" alt="seta voltar">
         </button>
         
-        <button>
-            <img src="src/imagens/seta.png" alt="seta avaçar">
-        </button>
+        <ul class="lista-pokemons">
+            <li class="cartao selecionado fundo1">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 300</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="src/imagens/pikachu.png" alt="Pikachu" class="imagem-pokemon">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minima tenetur saepe tempore, officia nemo debitis culpa aliquid iure. Commodi modi architecto, officia assumenda nulla eius velit corporis nam repudiandae?</p> 
+                </div>
+            </li>
 
-        <ul>
-            <li>
-                <div>
-                    <h2>Pikachu</h2>
-                    <p>HP 300</p>
+             <li class="cartao   fundo2">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 800</p>
                 </div>
-                <div>
-                    <img src="src/imagens/pikachu.png" alt="Pikachu">
+                <div class="container-imagem">
+                    <img src="src/imagens/charizard.png" alt="Charizard" class="imagem-pokemon">
                 </div>
-                <div>
-                    <h3>Descrição</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minima tenetur saepe tempore, officia nemo debitis culpa aliquid iure. Commodi modi architecto, officia assumenda nulla eius velit corporis nam repudiandae?</p> 
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h2>Charizard</h2>
-                    <p>HP 800</p>
-                </div>
-                <div>
-                    <img src="src/imagens/charizard.png" alt="Charizard">
-                </div>
-                <div>
-                    <h3>Descrição</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minima tenetur saepe tempore, officia nemo debitis culpa aliquid iure. Commodi modi architecto, officia assumenda nulla eius velit corporis nam repudiandae?</p> 
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minima tenetur saepe tempore, officia nemo debitis culpa aliquid iure. Commodi modi architecto, officia assumenda nulla eius velit corporis nam repudiandae?</p> 
                 </div>
             </li>
-            <li>
-                <div>
-                    <h2>Mewtwo</h2>
-                    <p>HP 1200</p>
+
+            <li class="cartao  fundo3">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP 1200</p>
                 </div>
-                <div>
-                    <img src="src/imagens/mewtwo.png" alt="Mewtwo">
+                <div class="container-imagem">
+                    <img src="src/imagens/mewtwo.png" alt="Mewtwo" class="imagem-pokemon">
                 </div>
-                <div>
-                    <h3>Descrição</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minima tenetur saepe tempore, officia nemo debitis culpa aliquido iure. Commodi modi architecto, officia assumenda nulla eius velit corporis nam repudiandae?</p> 
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis minima tenetur saepe tempore, officia nemo debitis culpa aliquido iure. Commodi modi architecto, officia assumenda nulla eius velit corporis nam repudiandae?</p> 
                 </div>
-            </li>
+            </li> 
+
         </ul>
 
-        <button>
+        <button class="btn-seta">
             <img src="src/imagens/seta.png" alt="seta avançar">
         </button>
 
