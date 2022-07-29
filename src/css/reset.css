@@ -1,0 +1,13 @@
+* {
+    /* * seleciona tudo no site, abaixo resetamos todos os atributos */
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; /*PESQUISAR*/
+}
+
+/* a{} - tags de links  */
+
+ul {
+    /* lista desordenada */
+    list-style: none; /*tira as bolinhas da lista*/
+}
