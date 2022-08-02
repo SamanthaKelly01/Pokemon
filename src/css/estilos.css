@@ -60,6 +60,8 @@ body {
 }
 
 .cartao{
+    opacity: 0;
+    background-color: blueviolet;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -67,8 +69,9 @@ body {
     position: absolute; /*coloca uma camada acima*/
     padding: 12px;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transition: opacity 0.3 ease-in-out;
+    box-shadow: rgba(100,100,111, 0.35) 0px 5px 15px;
+    transition: opacity 0.3s ease-in-out;
+    
 }
 
 .cartao.selecionado{
